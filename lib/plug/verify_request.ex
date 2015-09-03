@@ -1,6 +1,4 @@
 defmodule Concoction.Plug.VerifyRequest do
-  import Plug.Conn
-
   defmodule IncompleteRequestError do
     @moduledoc """
     Error raised when a required field is missing.

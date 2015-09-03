@@ -3,7 +3,7 @@ defmodule Concoction.Mixfile do
 
   def project do
     [app: :concoction,
-     version: "0.1.0",
+     version: "0.1.1",
      elixir: "~> 1.0",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
@@ -11,7 +11,9 @@ defmodule Concoction.Mixfile do
   end
 
   def application do
-    [applications: [:logger, :plug]]
+    [applications: [:cowboy, :plug],
+     mod: {Concoction, []},
+     env: [cowboy_port: 8080]]
   end
 
   defp deps do
