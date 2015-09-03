@@ -4,6 +4,16 @@ Concoction is an HTTP service for storing data along with its mimetype.  The con
 
 Interested in learning more about Elixir and Concoction?  Follow along at [Elixir School][elixir_school].
 
+## Running
+
+To start Concoction:
+
+```shell
+mix run --no-halt
+```
+
+Then visit [localhost:8080](http://localhost:8080).
+
 ## Contributing
 
 Feedback and improvements are welcomed and encouraged.  Please make appropriate use of [Issues](https://github.com/doomspork/concoction/issues) and [Pull Requests](https://github.com/doomspork/concoction/pulls).  All code should have accompanying tests.
