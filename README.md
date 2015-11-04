@@ -22,4 +22,4 @@ Feedback and improvements are welcomed and encouraged.  Please make appropriate 
 
 Please see [LICENSE](https://github.com/doomspork/concoction/blob/master/LICENSE) for licensing details.
 
-elixir_school: https://github.com/doomspork/elixir-school
+[elixir_school]: https://github.com/doomspork/elixir-school
